@@ -1,4 +1,4 @@
-- hosts: ~.*cirros.*
+- hosts: all
   gather_facts: true
   remote_user: cirros
 
