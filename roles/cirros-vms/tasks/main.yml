@@ -1,0 +1,3 @@
+---
+- name: touch a file
+  command: touch /home/cirros/iwashere.txt

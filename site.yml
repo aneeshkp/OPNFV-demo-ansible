@@ -1,4 +1,6 @@
-- include: cr-vpn-servers.yml
-- include: cr-vpn-clients.yml
-- include: cr-os-routers.yml
+- hosts: ~.*cirros.*
+  gather_facts: no
+  remote_user: cirros
 
+  roles:
+    - cirros-vms

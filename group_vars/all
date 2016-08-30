@@ -1,9 +1,0 @@
-# variables listed here are applicable to all host groups
-
-tunnel_cidr: 10.8.0.0/24
-tunnel_interface: tun0
-tunnel_addr_client: 10.8.0.1
-tunnel_addr_server: 10.8.0.2
-
-openvpn_dir: /etc/openvpn
-

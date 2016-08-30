@@ -1,8 +1,0 @@
-- hosts: ~.*Cloud.*Router.*
-  gather_facts: no
-  remote_user: nfv
-
-  roles:
-    - cloudrouter-clients
-
-
