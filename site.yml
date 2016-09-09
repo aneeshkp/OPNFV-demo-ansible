@@ -1,6 +1,6 @@
 - hosts: all
   gather_facts: true
-  remote_user: centos
+  remote_user: root
 
   roles:
     - centos-vms
